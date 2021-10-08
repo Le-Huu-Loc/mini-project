@@ -1,7 +1,7 @@
 import './App.scss';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Clock from './components/Clock';
 import Info from './components/Info';
 import Notfound from './components/Notfound';
